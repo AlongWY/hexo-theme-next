@@ -195,7 +195,7 @@ avatar:
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
   url: #/images/avatar.gif
-  # If true, the avatar would be dispalyed in circle. 
+  # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
@@ -859,6 +859,14 @@ canvas_ribbon:
   size: 300
   alpha: 0.6
   zIndex: -1
+
+# mermaid support
+# Dependencies: https://github.com/knsv/mermaid
+mermaid:
+  enable: true  # default true
+  version: "7.1.2" # default v7.1.2
+  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+    #startOnload: true  // default true
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
