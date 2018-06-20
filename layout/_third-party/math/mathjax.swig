@@ -5,7 +5,10 @@
         processEscapes: true,
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       },
-      TeX: {equationNumbers: { autoNumber: "AMS" }}
+      TeX: {
+        extensions: ["cancel.js"],
+        equationNumbers: { autoNumber: "AMS" }
+      }
     });
 </script>
 
